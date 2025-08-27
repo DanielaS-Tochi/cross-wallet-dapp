@@ -1,8 +1,13 @@
+import MetaMaskConnect from "./components/MetaMaskConnect";
+import PhantomConnect from "./components/PhantomConnect";
+
 export default function App() {
   return (
-    <div>
+    <div style={{ padding: "2rem" }}>
       <h1>Cross Wallet DApp 🚀</h1>
-      <p>MetaMask + Phantom Integration</p>
+      <MetaMaskConnect />
+      <hr />
+      <PhantomConnect />
     </div>
   );
 }
